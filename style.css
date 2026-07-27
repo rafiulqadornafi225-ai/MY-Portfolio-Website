@@ -1,0 +1,336 @@
+/* Global Reset & Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b365d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 70px 20px;
+    color: #ffffff;
+}
+
+.profile-container {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 35px rgba(0, 255, 255, 0.4);
+    border: 4px solid #ffffff;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CV Style Header Name Design */
+.cv-name {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cv-title-tag {
+    font-size: 18px;
+    font-weight: 500;
+    color: #93c5fd;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+/* Download CV Button */
+.download-cv-btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #1b365d;
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    background-color: #0d233a;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Main Container */
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Card Sections */
+.card-section {
+    margin-bottom: 35px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(27, 54, 93, 0.08);
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #0d233a;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-left: 5px solid #1b365d;
+    padding-left: 14px;
+    font-weight: 700;
+}
+
+.card p {
+    color: #475569;
+    font-size: 16px;
+}
+
+/* Skills Tags Layout */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-tag {
+    background-color: #f1f5f9;
+    color: #1b365d;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+    background-color: #1b365d;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* Academic Table Styling */
+.academic-table-wrapper {
+    overflow-x: auto;
+}
+
+.academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 15px;
+}
+
+.academic-table th {
+    background-color: #1b365d;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.academic-table th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.academic-table th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.academic-table td {
+    padding: 18px 20px;
+    color: #334155;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.academic-table tr:hover {
+    background-color: #f8fafc;
+}
+/* Card & Academic Result Section CSS */
+.card-section {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.card {
+    background: #ffffff;
+    color: #0d233a;
+    padding: 35px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #0d233a;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Heading vertical line effect matching your previous design */
+.card h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #0d233a;
+    border-radius: 2px;
+}
+
+.academic-table-wrapper {
+    overflow-x: auto;
+}
+
+.academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.academic-table th, 
+.academic-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #0d233a;
+}
+
+.academic-table th {
+    background-color: #0d233a;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.academic-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.academic-table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.academic-table tr:hover {
+    background-color: #f8f9fa;
+}
+/* Projects List */
+.project-list {
+    padding-left: 20px;
+    color: #475569;
+}
+
+.project-list li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* Social Buttons Design (Bigger & Clear Icons) */
+.social-buttons {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #1b365d;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(27, 54, 93, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+}
+
+.fb-btn:hover {
+    background-color: #1877F2;
+}
+
+.insta-btn:hover {
+    background-color: #E4405F;
+}
+
+.whatsapp-btn:hover {
+    background-color: #25D366;
+}
+.github-btn:hover {
+    background-color: #24292e; /* GitHub dark color */
+}
+/* Social Icon Image Size Increased */
+.social-btn img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffffff;
+    background-color: #0d233a;
+    margin-top: 60px;
+    border-top: 4px solid #1b365d;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #94a3b8;
+}
